@@ -1,24 +1,313 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Profile</title>
-    </head>
-    <body>
-        <h1><b>Gowri Gopika</b></h1>
-        <h4>B.Tech Student|Web Developer</h4>
-        <h3>About Me</h3>
-        <p>Hello! I am Gowri Gopika, a B.Tech student in computer science and Engineering[Artificial Intelligence and Machine Learning].I love solving online coding problems and developing of web applications</p>
-        <h3>Skills</h3>
-        <p>I have experience in <b>data structures,html,css,javascript,java,python,my sql,mongodb</b>,web development and problem solving in online platform </em></p>
-        <p><em>I am passionate about learning new languages and learn more coding skills to improve my self and turn into my goal</h4>     
-        <h3>My certifications</h3>
-        <p>c programme ,web development</p>
-        <h3>Achievements:</h3>
-        <p>Gen ai workshop</p>
-        <p>fast quiz solving</p>
-        <h3>Contact</h3>
-        <p>Email:<u>abc1.@gmail.com</u>|Phone:<u>0000000000</u></p>
-        <h2>My Motto</h2>
-        <p>"The way to do hard work to acheive my goal"</p>
-    </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Resume</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#eef2f7;
+padding:30px;
+}
+
+.resume{
+max-width:1000px;
+margin:auto;
+display:grid;
+grid-template-columns:300px 1fr;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* LEFT SIDE */
+.left{
+background:linear-gradient(180deg,#1e3a8a,#2563eb);
+color:white;
+padding:25px;
+}
+
+.profile{
+text-align:center;
+}
+
+.profile img{
+width:130px;
+height:130px;
+border-radius:50%;
+border:4px solid white;
+margin-bottom:10px;
+object-fit:cover;
+}
+
+.profile h1{
+font-size:22px;
+}
+
+.profile h3{
+font-size:14px;
+opacity:0.9;
+margin-top:5px;
+}
+
+.section{
+margin-top:25px;
+}
+
+.section h2{
+font-size:16px;
+border-bottom:1px solid rgba(255,255,255,0.4);
+padding-bottom:5px;
+margin-bottom:10px;
+}
+
+.section p, .section li{
+font-size:13px;
+line-height:22px;
+}
+
+.section ul{
+padding-left:18px;
+}
+
+/* RIGHT SIDE */
+.right{
+padding:30px;
+}
+
+.name{
+font-size:28px;
+font-weight:700;
+color:#1e3a8a;
+}
+
+.role{
+color:#555;
+margin-bottom:20px;
+}
+
+.card{
+margin-bottom:20px;
+}
+
+.card h2{
+color:#1e3a8a;
+border-left:5px solid #2563eb;
+padding-left:10px;
+margin-bottom:10px;
+font-size:18px;
+}
+
+/* EDUCATION TABLE */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+font-size:13px;
+}
+
+th{
+background:#2563eb;
+color:white;
+padding:10px;
+text-align:center;
+}
+
+td{
+padding:10px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+tr:nth-child(even){
+background:#f5f9ff;
+}
+
+/* PROJECTS */
+.project{
+background:#f8fbff;
+padding:10px;
+border-left:4px solid #2563eb;
+margin-bottom:10px;
+border-radius:6px;
+}
+
+.project:hover{
+transform:translateX(5px);
+transition:0.3s;
+}
+
+/* SKILLS */
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin-top:10px;
+}
+
+.skill{
+background:#2563eb;
+color:white;
+padding:5px 10px;
+border-radius:20px;
+font-size:12px;
+}
+
+.footer{
+text-align:center;
+margin-top:20px;
+color:#2563eb;
+font-weight:600;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+<!-- LEFT -->
+<div class="left">
+
+<div class="profile">
+<h1>GOWRI GOPIKA PALANKI</h1>
+<h3>B.Tech CSE(AIML) (3rd Year)</h3>
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<p>📞 +917569970777</p>
+<p>📧 gowrigopika1@gmail.com</p>
+<p>📧 pgopika254213@sasi.ac.in.</p>
+<p>💻 pgopika254213-glitch/Gowri Gopika</p>
+<p>📍 Andhra Pradesh, India</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<ul>
+<li>C, C++, Java, Python</li>
+<li>HTML, CSS, JavaScript</li>
+<li>Web Development</li>
+<li>MySQL,MongoDB</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Soft Skills</h2>
+<ul>
+<li>Communication</li>
+<li>Problem Solving</li>
+<li>Team Work</li>
+<li>Time Management</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Languages</h2>
+<ul>
+<li>English</li>
+<li>Telugu</li>
+<li>Hindi</li>
+</ul>
+</div>
+
+</div>
+
+<!-- RIGHT -->
+<div class="right">
+
+<div class="name">GOWRI GOPIKA PALANKI</div>
+<div class="role">Aspiring Software Engineer | Web Developer | Problem Solver</div>
+
+<div class="card">
+<h2>Professional Summary</h2>
+<p>
+Motivated 3rd-year B.Tech Computer Science student with strong programming foundation and interest in software development. Passionate about building real-world projects, learning new technologies, and contributing to innovative teams.
+</p>
+</div>
+
+<div class="card">
+<h2>Education</h2>
+
+<table>
+<tr>
+<th>Qualification</th>
+<th>Institute</th>
+<th>Year</th>
+<th>Score</th>
+</tr>
+
+<tr>
+<td>B.Tech CSE</td>
+<td>Sasi institute of technology and engineering</td>
+<td>2025-Present</td>
+<td>8.7 CGPA</td>
+</tr>
+
+<tr>
+<td>DIPLOMA</td>
+<td>Smt.B Seetha polytechnic</td>
+<td>2022-2025</td>
+<td>95%</td>
+</tr>
+
+<tr>
+<td>SSC</td>
+<td>Chs zp girls high school</td>
+<td>2022</td>
+<td>89%</td>
+</tr>
+</table>
+
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+
+<div class="project">
+<strong>Iris Recognition System</strong>
+<p>To Develop a **secure and highly accurate biometric authentication system** that identifies individuals based </p>
+</div>
+
+<div class="card">
+<h2>Certifications</h2>
+<ul>
+<li>Java Programming</li>
+<li>Web Development</li>
+<li>Python Basics</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Achievements</h2>
+<ul>
+<li>coding problems solved</li>
+<li>Hackathon participant</li>
+<li>Fast quiz solving</li>
+</ul>
+</div>
+
+<div class="footer">
+"Build. Learn. Grow."
+</div>
+
+</div>
+
+</div>
+
+</body>
 </html>
